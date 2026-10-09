@@ -1,0 +1,30 @@
+{
+  "name": "blade-loop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "像素风横版打怪升级网页小游戏 (React + TypeScript + Canvas)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "check": "tsc -b --pretty false",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "verify": "node scripts/verify.mjs",
+    "check:dev": "node scripts/dev-check.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "puppeteer-core": "^23.11.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
